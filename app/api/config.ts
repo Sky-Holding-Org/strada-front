@@ -1,5 +1,5 @@
 const API_BASE_URL =
-  "https://strada-backend-production-c184.up.railway.app/api";
+  "https://strada-backend-production-4f3f.up.railway.app/api";
 const API_TOKEN = process.env.NEXT_PUBLIC_REST_API_KEY;
 
 if (!API_TOKEN) {
