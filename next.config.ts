@@ -21,7 +21,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "strada-cms-bucket.s3.me-south-1.amazonaws.com",
+        hostname: "strada-cms-bucket-eu.s3.eu-central-1.amazonaws.com",
         pathname: "**",
       },
     ],
