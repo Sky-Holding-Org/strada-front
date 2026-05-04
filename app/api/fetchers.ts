@@ -392,7 +392,7 @@ import { apiConfig } from "./config";
 import { cachedFetch } from "./cache";
 import type { Area, Compound, Developer, Property, ApiResponse } from "./types";
 
-const REVALIDATE_TIME = 3600;
+const REVALIDATE_TIME = 60;
 
 // Core fetch functions
 export async function fetchAreas(): Promise<Area[]> {
